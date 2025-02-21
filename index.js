@@ -55,7 +55,7 @@ const port = process.env.PORT || 9090;
 //=============================================
 
 async function connectToWA() {
-console.log("CONNECTING TOHID_MD BOT🧬...");
+console.log("CONNECTING HonorsMD BOT🧬...");
 const { state, saveCreds } = await useMultiFileAuthState(__dirname + '/auth_info_baileys/')
 var { version } = await fetchLatestBaileysVersion()
 
@@ -86,7 +86,7 @@ console.log('PLUGINS FILES INSTALL SUCCESSFULLY ✅')
 console.log('TOHID_MD CONNECTED TO WHATSAPP ENJOY ✅')
 
 let up = `
-*[ •  TOHID_MD - STARTED‎ • ]*
+*[ •  HonorsMD - STARTED‎ • ]*
 *╭┈───────────────•*
 *│  ◦* *_Congratulations Your Bot Active Successfully_*
 *│  ◦*
@@ -96,11 +96,11 @@ let up = `
 *│  ◦*
 *│  ◦* *❁ ᴊᴏɪɴ ᴏᴜʀ ʏᴏᴜᴛᴜʙᴇ ᴄʜᴀɴɴᴇʟ ❁*
 *│  ◦*
-*│  ◦* *https://youtube.com/@Tohidkhan_6332*
+*│  ◦* *https://youtube.com/@KNETMUSIC*
 *╰┈───────────────•*
 *[ •  B O T  - R E P O ‎ • ]*
 *╭┈───────────────•*
-*│✫➠ - 🌐URL:* *https://github.com/Tohidkhan6332/TOHID_MD*
+*│✫➠ - 🌐URL:* *https://github.com/KNETMUSIC*
 *╰┈───────────────•*
 *YOUR BOT ACTIVE NOW ENJOY♥️🪄*\n\n*PREFIX: [${prefix}]*
 
